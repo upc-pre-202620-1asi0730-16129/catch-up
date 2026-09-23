@@ -1,16 +1,14 @@
 <script setup lang="js">
-import {useI18n} from "vue-i18n";
+  import {useI18n} from "vue-i18n";
 
-
-/**
- * Presentation component for the application footer.
- *
- * @remarks
- * Displays attribution links, copyright information, and supports localization.
- */
-const { t } = useI18n();
+  /**
+   * Presentation component for the application footer.
+   *
+   * @remarks
+   * Displays attribution links, copyright information, and supports localization.
+   */
+  const { t } = useI18n();
 </script>
-
 
 <template>
   <div class="grid mt-4 p-4 justify-content-center bg-primary text-primary-contrast text-center">
@@ -28,8 +26,6 @@ const { t } = useI18n();
   </div>
 </template>
 
-
 <style scoped>
-
 
 </style>
